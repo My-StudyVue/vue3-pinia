@@ -20,7 +20,7 @@ const Login = (): Promise<User> => {
         name: "不想坐飞机",
         age: 0,
       });
-    }, 2000);
+    }, 1);
   });
 };
 

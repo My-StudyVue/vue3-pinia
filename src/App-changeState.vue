@@ -6,7 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { useTestStore } from "./stores";
+import { useTestStore } from "./stores/index-state";
 
 const Test = useTestStore();
 

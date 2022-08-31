@@ -6,8 +6,8 @@
 </template>
 
 <script setup lang="ts">
-import { useTestStore } from "./stores";
-import { storeToRefs } frosm "pinia";
+import { useTestStore } from "./stores/index-state";
+import { storeToRefs } from "pinia";
 
 const Test = useTestStore();
 
