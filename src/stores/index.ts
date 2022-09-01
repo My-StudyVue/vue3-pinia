@@ -54,3 +54,14 @@ export const useTestStore = defineStore(Names.TEST, {
     },
   },
 });
+
+//base
+export const UserStore = defineStore(Names.BASE, {
+  state: () => ({
+    baseCurrent: 1,
+  }),
+
+  getters: {},
+
+  actions: {},
+});
